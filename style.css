@@ -61,8 +61,22 @@ img {
     border-radius: 10px;
 }
 
-ul, ol {
+ul {
     max-width: 600px;
     margin: 0 auto;
     line-height: 1.6;
+}
+
+ol li {
+    text-align: left;
+    list-style-position: outside;
+    margin: 0;
+    padding-left: 5px auto;
+}
+
+ol {
+    max-width: 300px;
+    margin: 20px auto;
+    padding-left: 40px;
+    text-align: center;
 }
