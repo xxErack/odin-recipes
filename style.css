@@ -37,6 +37,8 @@ a {
     border-radius: 8px;
     font-weight: bold;
     text-align: center;
+    margin: 0 auto;
+    width: 150px;
 }
 
 a:hover {
